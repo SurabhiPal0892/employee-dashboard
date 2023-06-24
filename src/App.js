@@ -28,7 +28,7 @@ const cache=new InMemoryCache({
   }
 })
 const client = new ApolloClient({
-  uri: "http://localhost:8000/graphql", //server
+  uri: "https://employee-dashboard-hgn5.onrender.com/", //server
   cache
 });
 
